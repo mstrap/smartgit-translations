@@ -16,16 +16,16 @@
 :*"Deselect All"=取消全选
 :*"Select All"=全选
 :*"Output"=输出
-:*"Repositories"=版本库
+:*"Repositories"=仓库
 :*"Add Tag"=创建标签
 :*"Apply Stash"=应用贮藏
-:*"Working Tree"=工作副本
+:*"Working Tree"=工作树
 :*"Refresh"=刷新
 :*"Email"=电子邮箱
 
 *.btn"Cancel"=取消
 *.btn"Close"=关闭
-*.btn"OK"=好的
+*.btn"OK"=好
 dlgDgAbout.edt"Build Date"=编译日期
 dlgDgAbout.edt"Email"=电子邮箱
 dlgDgAbout.edt"Java Version"=Java 版本
@@ -74,7 +74,7 @@ dlgQProxyConfigure.edt"Password"=密码
 dlgQProxyConfigure.edt"Port"=端口
 dlgQProxyConfigure.edt"Username"=用户名
 dlgQProxyConfigure.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
- 注意：密码将以纯文本形式存储在SmartGit的配置区域中！
+ 注意：密码将以明文形式存储在 SmartGit 的配置区域中！
 dlgQProxyConfigure.rbt"Auto-detect the system proxy"=自动检测系统代理
 dlgQProxyConfigure.rbt"Don't use a proxy"=不使用代理
 dlgQProxyConfigure.rbt"Use following proxy"=使用以下代理
@@ -85,7 +85,7 @@ dlgQProxyConnectionFailed.fur=详情：syntevo.com
 dlgQProxyConnectionFailed.hdl%1=无法连接到 $1。
 dlgQProxyConnectionFailed.tle=连接失败
 dlgQUpdateCheckLatestBuild.btn"Get Latest Build"=确认
-dlgQUpdateCheckLatestBuild.fur=仅当支持团队请求时,才使用最新版本。
+dlgQUpdateCheckLatestBuild.fur=仅在支持团队要求时使用最新版本。
 dlgQUpdateCheckLatestBuild.hdl=您确定要下载最新编译版本吗？
 dlgQUpdateCheckLatestBuild.tle=检查最新编译版本
 dlgQUpdateCheckLatestBuildFetchFailed.fur%1=Details: Could not resolve the IP address of the host '$1'.
@@ -134,7 +134,7 @@ dlgScConflictSolverAdd.hdl=添加冲突解决方案
 dlgScConflictSolverAdd.inf"Define the file pattern \(e.g. \*.txt\) and select the merge tool which should be used to resolve conflicting files matching this pattern."=\
  定义文件模式 \(例如：\*.txt\) 并选择合并工具，该工具用于解决与此模式匹配的冲突文件。
 dlgScConflictSolverAdd.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html"。
+ 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
 dlgScConflictSolverAdd.rbt"Built-in Conflict Solver"=内置冲突解决器
 dlgScConflictSolverAdd.rbt"External Conflict Solver"=外部冲突解决器
 dlgScConflictSolverAdd.tle=添加
@@ -145,7 +145,7 @@ dlgScConflictSolverEdit.hdl=变基冲突解决方案
 dlgScConflictSolverEdit.inf"Define the file pattern \(e.g. \*.txt\) and select the merge tool which should be used to resolve conflicting files matching this pattern."=\
  定义文件模式 \(例如: \*.txt\) 并选择合并工具，该工具用于解决与此模式匹配的冲突文件。
 dlgScConflictSolverEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html"。
+ 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
 dlgScConflictSolverEdit.rbt"Built-in Conflict Solver"=内置冲突解决器
 dlgScConflictSolverEdit.rbt"External Conflict Solver"=外部冲突解决器
 dlgScConflictSolverEdit.tle=编辑
@@ -175,7 +175,7 @@ dlgScFileComparatorAdd.hdl=添加外部差异工具
 dlgScFileComparatorAdd.inf"Define the file pattern \(e.g. \*.png\) and select the compare command which should be used to compare files matching the file pattern."=\
  定义文件模式 \(例如：\*.png\) 并选择比较命令，该命令应用于比较与文件模式匹配的文件。
 dlgScFileComparatorAdd.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html"。
+ 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
 dlgScFileComparatorAdd.mni"File"=文件
 dlgScFileComparatorAdd.mni"Left Encoding"=左编码
 dlgScFileComparatorAdd.mni"Left File"=左文件
@@ -197,7 +197,7 @@ dlgScFileComparatorEdit.hdl=编辑外部差异工具
 dlgScFileComparatorEdit.inf"Define the file pattern \(e.g. \*.png\) and select the compare command which should be used to compare files matching the file pattern."=\
  定义文件模式 \(例如: \*.png\) 并选择比较命令，该命令应用于比较与文件模式匹配的文件。
 dlgScFileComparatorEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html"。
+ 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
 dlgScFileComparatorEdit.rbt"Built-in file compare"=内置文件比较
 dlgScFileComparatorEdit.rbt"External diff tool:"=外部差异工具：
 dlgScFileComparatorEdit.rbt"External viewer \(invoked for both compared files\):"=\
@@ -212,7 +212,7 @@ dlgScFilePatternsEdit.edt"File Pattern"=文件模式
 dlgScFilePatternsEdit.hdl=语言：C#
 dlgScFilePatternsEdit.inf=文件模式用于确定文件语言，该文件用于语法着色。
 dlgScFilePatternsEdit.lbl"Valid wildcards are ?\u00a0\(one arbitrary character\) and \*\u00a0\(any number of arbitrary characters\). Separate multiple patterns by comma. Example:\u00a0\*.txt,\u00a0\*.html"=\
- 有效的通配符是?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html"。
+ 有效的通配符是 ?\u00a0\(一个任意字符\)和\*\u00a0\(任意数量的任意字符\)。用逗号分隔多个模式。例如：\u00a0\*.txt,\u00a0\*.html。
 dlgScFilePatternsEdit.tle=文件模式
 dlgScFindAction.edt"Action name"=命令
 dlgScFindAction.tle=查找命令
@@ -252,7 +252,7 @@ dlgScMasterPasswordCreate.inf=主密码用于保护用于向服务器进行身�
 dlgScMasterPasswordCreate.lbl"Not using a master password makes your passwords and passphrases readable for everyone who has access to the password file located at $1. Use this option only if you are sure that this file is safe."=\
  Not using a master password makes your passwords and passphrases readable for everyone who has access to the password file located at $1. Use this option only if you are sure that this file is safe.
 dlgScMasterPasswordCreate.lbl"This master password is case-sensitive and should contain lowercase and uppercase characters, digits and other characters. Longer passwords are in general more secure than shorter ones."=\
- 此主密码区分大小写，应包含小写和大写字符，数字和其他字符。较长的密码通常比较短的密码更安全。
+ 此主密码区分大小写，应包含小写和大写字符、数字和其他字符。长密码通常比短密码更安全。
 dlgScMasterPasswordCreate.rbt"Don't use a master password"=不要使用主密码
 dlgScMasterPasswordCreate.rbt"Use the following master password"=使用以下主密码
 dlgScMasterPasswordCreate.tle=主密码
@@ -400,7 +400,7 @@ dlgSgBranchDeleteLocalConfirmSingle.tle=删除
 dlgSgBranchDeleteRemoteConfirmSingle.btn"Delete"=删除
 dlgSgBranchDeleteRemoteConfirmSingle.chk%1=从远程 “$1” 删除
 dlgSgBranchDeleteRemoteConfirmSingle.fur=You may only delete a branch from your local list of remote branches, but this may bring back the branch with the next fetch.
-dlgSgBranchDeleteRemoteConfirmSingle.hdl%1=你要删除远程分支 '$1' 吗?
+dlgSgBranchDeleteRemoteConfirmSingle.hdl%1=您要删除远程分支 “$1” 吗？
 dlgSgBranchDeleteRemoteConfirmSingle.tle=删除
 dlgSgBugReportSettings.btn"Exit"=退出
 dlgSgBugReportSettings.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
@@ -453,11 +453,11 @@ dlgSgClean.chk"Remove untracked directories"=Remove untracked directories
 dlgSgClean.hdl=Remove untracked files
 dlgSgClean.inf=Select which untracked files should be removed.
 dlgSgClean.tle=Clean Working Tree
-dlgSgClone.btn"< Back"=上一步
+dlgSgClone.btn"< Back"=< 上一步
 dlgSgClone.btn"Finish"=完成
-dlgSgClone.btn"Next >"=下一步
+dlgSgClone.btn"Next >"=下一步 >
 dlgSgClone.chk"Create upstream remote"=创建上游远程
-dlgSgClone.chk"Fetch all Heads and Tags"=获取所有Head和标签
+dlgSgClone.chk"Fetch all Heads and Tags"=获取所有 HEAD 和标签
 dlgSgClone.chk"Fetch all commits"=获取所有提交
 dlgSgClone.chk"Include Submodules"=包括子模块
 dlgSgClone.chk"Just initialize clone \(expert mode\)"=刚刚初始化克隆\(专家模式\)
@@ -468,19 +468,19 @@ dlgSgClone.edt"Fetch Only the Latest"=获取最新内容
 dlgSgClone.edt"Fetch Only"=仅获取
 dlgSgClone.edt"Local Directory"=本地目录
 dlgSgClone.edt"Path"=路径
-dlgSgClone.edt"Repository URL"=版本库地址
+dlgSgClone.edt"Repository URL"=仓库地址
 dlgSgClone.err"Please specify the URL of the remote repository to be cloned."=\
- 请指定要克隆的远程版本库的地址。
+ 请指定要克隆的远程仓库的地址。
 dlgSgClone.err"Please specify the root directory of a local repository."=\
  Please specify the root directory of a local repository.
 dlgSgClone.inf"Customize how and what to clone."=\
  自定义克隆的方式和内容。
 dlgSgClone.inf"Specify the Git or SVN repository to clone."=\
- 指定要克隆的Git或SVN版本库。
+ 指定要克隆的 Git 或 SVN 仓库。
 dlgSgClone.inf"Specify the Git, Mercurial or SVN repository to clone."=\
- 指定要克隆的Git，Mercurial或SVN版本库。
+ 指定要克隆的 Git，Mercurial 或 SVN 仓库。
 dlgSgClone.inf"Specify the local directory for the new repository."=\
- 指定新版本库的本地目录。
+ 指定新仓库的本地目录。
 dlgSgClone.mni"Add Hosting Provider"=添加主机提供商
 dlgSgClone.mni"BitBucket"=BitBucket
 dlgSgClone.mni"Bitbucket Server"=Bitbucket Server
@@ -490,11 +490,11 @@ dlgSgClone.mni"GitLab \(smart\)"=GitLab \(smart\)
 dlgSgClone.mni"github.com"=github.com
 dlgSgClone.rbt"Clone all revisions \(recommended\)"=克隆所有修订版\(推荐\)
 dlgSgClone.rbt"Clone from revision:"=从修订版中克隆:
-dlgSgClone.rbt"Local Git or Mercurial repository"=本地Git或Mercurial版本库
-dlgSgClone.rbt"Local Git repository"=本地Git版本库
-dlgSgClone.rbt"Remote Git or SVN repository"=远程Git或SVN版本库
+dlgSgClone.rbt"Local Git or Mercurial repository"=本地 Git 或 Mercurial 仓库
+dlgSgClone.rbt"Local Git repository"=本地 Git 仓库
+dlgSgClone.rbt"Remote Git or SVN repository"=远程 Git 或 SVN 仓库
 dlgSgClone.rbt"Remote Git, Mercurial or SVN repository"=\
- 远程Git，Mercurial或SVN版本库
+ 远程 Git，Mercurial 或 SVN 仓库
 dlgSgClone.tle=克隆
 dlgSgCommit.btn"Commit && Push"=提交并推送
 dlgSgCommit.btn"Commit"=提交
@@ -574,7 +574,7 @@ dlgSgConflictSolverStageForCommit.btn"Stage"=暂存
 dlgSgConflictSolverStageForCommit.fur=Staging is necessary to resolve the file's conflict status.
 dlgSgConflictSolverStageForCommit.hdl=Do you want to stage the file for commit now?
 dlgSgConflictSolverStageForCommit.tle=Stage for Commit
-dlgSgCustomizeProjectUi.btn"Add"=添加
+dlgSgCustomizeProjectUi.btn"Add"=创建
 dlgSgCustomizeProjectUi.btn"Assign"=应用
 dlgSgCustomizeProjectUi.btn"Clear"=清除
 dlgSgCustomizeProjectUi.btn"Remove"=移除
@@ -636,7 +636,7 @@ dlgSgFlowConfigure.edt"Develop Branch"=Develop 分支
 dlgSgFlowConfigure.edt"Feature Branches"=Feature 分支
 dlgSgFlowConfigure.edt"Git-Flow Type"=Git 工作流类型
 dlgSgFlowConfigure.edt"Hot-Fix Branches"="Hot-Fix 分支
-dlgSgFlowConfigure.edt"Main Development Branch"="Main Develop分支
+dlgSgFlowConfigure.edt"Main Development Branch"="主开发分支
 dlgSgFlowConfigure.edt"Master Branch"=Master 分支
 dlgSgFlowConfigure.edt"Prefix for Feature Branches"=功能分支的前缀
 dlgSgFlowConfigure.edt"Release Branches"=Release Branches
@@ -663,7 +663,7 @@ dlgSgFlowFeatureFinish.chk"Fetch latest commits and remove remote feature branch
 dlgSgFlowFeatureFinish.edt"Commit Message"=提交消息
 dlgSgFlowFeatureFinish.hdl=完成当前功能
 dlgSgFlowFeatureFinish.inf"Choose how to finish the current feature. This operation will integrate the feature into the '$1' branch."=\
- 选择如何完成当前功能。 此操作将该功能集成到'$1'分支中。
+ 选择如何完成当前功能。此操作将该功能集成到 $1 分支中。
 dlgSgFlowFeatureFinish.inf"Choose how to finish the feature branch '$1'. This operation will integrate the feature into the '$2' branch."=\
  Choose how to finish the feature branch '$1'. This operation will integrate the feature into the '$2' branch.
 dlgSgFlowFeatureFinish.mni"JIRA"=JIRA
@@ -701,7 +701,7 @@ dlgSgFlowHotfixFinish.inf"Choose how to finish the hotfix branch '$1'."=\
 dlgSgFlowHotfixFinish.tle=Finish Hotfix
 dlgSgFlowIntegrateDevelop.btn"Integrate"=整合
 dlgSgFlowIntegrateDevelop.chk"Fetch latest '$1' commits from remote repository"=\
- 从远程版本库获取最新的'$1'提交
+ 从远程仓库获取最新的 “$1” 提交
 dlgSgFlowIntegrateDevelop.hdl%1=整合来自 “$1” 的提交
 dlgSgFlowIntegrateDevelop.inf"Merge or rebase commits from the main development line to the current feature."=\
  把主开发线合并或变基提交到当前功能分支。
@@ -739,7 +739,7 @@ dlgSgGitHubPullRequestCreate.btn"Create"=创建
 dlgSgGitHubPullRequestCreate.chk"Create only draft"=仅创建草稿
 dlgSgGitHubPullRequestCreate.edt"Title and Description"=标题和描述
 dlgSgGitHubPullRequestCreate.hdl=创建一个拉取请求
-dlgSgGitHubPullRequestCreate.inf=将拉取请求发送到另一个版本库或分支。
+dlgSgGitHubPullRequestCreate.inf=将拉取请求发送到另一个仓库或分支。
 dlgSgGitHubPullRequestCreate.tle=创建拉取请求
 dlgSgGitLabGenerateToken.edt"Link"=链接
 dlgSgGitLabGenerateToken.edt"Token"=令牌
@@ -785,13 +785,13 @@ dlgSgHistorySquash.inf=The selected commits will be replaced by one squashed com
 dlgSgHistorySquash.mni"JIRA"=JIRA
 dlgSgHistorySquash.mni"Log"=日志
 dlgSgHistorySquash.tle=Squash Commits
-dlgSgHostingProviderAdd.btn"Add"=添加
+dlgSgHostingProviderAdd.btn"Add"=创建
 dlgSgHostingProviderAdd.btn"Generate API Token"=生成 API 令牌
 dlgSgHostingProviderAdd.btn"Generate Token"=生成令牌
 dlgSgHostingProviderAdd.chk"Use OAuth token for repository authentication \(instead of password\)"=\
- 使用OAuth令牌进行版本库验证\(而不是密码\)
+ 使用 OAuth 令牌进行仓库验证 \(而不是密码\)
 dlgSgHostingProviderAdd.chk"Use SSH instead of HTTPS to access repositories"=\
- 使用SSH替代HTTPS来访问版本库
+ 使用 SSH 替代 HTTPS 来访问仓库
 dlgSgHostingProviderAdd.chk"Use SSL client certificates \(usually not required\)"=\
  使用 SSL 客户端证书 \(通常不需要\)
 dlgSgHostingProviderAdd.chk"Use a GitHub Enterprise instance"=使用 GitHub 企业实例
@@ -821,9 +821,9 @@ dlgSgHostingProviderAdd.lbl"Use the same login information as for the unfuddle w
 dlgSgHostingProviderAdd.tle=添加主机提供商
 dlgSgHostingProviderEdit.btn"Generate Token"=生成令牌
 dlgSgHostingProviderEdit.chk"Use OAuth token for repository authentication \(instead of password\)"=\
- 使用OAuth令牌进行版本库验证\(而不是密码\)
+ 使用 OAuth 令牌进行仓库验证 \(而不是密码\)
 dlgSgHostingProviderEdit.chk"Use SSH instead of HTTPS to access repositories"=\
- 使用SSH替代HTTPS来访问版本库
+ 使用 SSH 替代 HTTPS 来访问仓库
 dlgSgHostingProviderEdit.chk"Use a custom GitLab server"=使用自定义 GitLab 服务器
 dlgSgHostingProviderEdit.edt"Certificate Password"=证书密码
 dlgSgHostingProviderEdit.edt"Client Certificate"=客户端证书
@@ -847,7 +847,7 @@ dlgSgHttpPasswordCredentials.chk"Store password"=存储密码
 dlgSgHttpPasswordCredentials.edt"Password"=密码
 dlgSgHttpPasswordCredentials.edt"User Name"=用户名
 dlgSgHttpPasswordCredentials.hdl%1=登录到 “$1”
-dlgSgHttpPasswordCredentials.inf=提供用于对版本库进行身份验证的用户名和密码。
+dlgSgHttpPasswordCredentials.inf=提供用于对仓库进行身份验证的用户名和密码。
 dlgSgHttpPasswordCredentials.tle=登录
 dlgSgIgnoreDirectoryConfirm.btn"Ignore"=Ignore
 dlgSgIgnoreDirectoryConfirm.edt"Ignore File"=Ignore File
@@ -886,16 +886,16 @@ dlgSgLocalChangesFormTakeBlockListenerRevertWorkingTreeFile.tle=还原工作树�
 dlgSgLogCheckoutFileAs.btn"Save After"=保存之后
 dlgSgLogCheckoutFileAs.btn"Save Before"=保存之前
 dlgSgLogCheckoutFileAs.edt"Target File"=目标文件
-dlgSgLogCheckoutFileAs.hdl=保存版本库文件
+dlgSgLogCheckoutFileAs.hdl=保存仓库文件
 dlgSgLogCheckoutFileAs.inf"Select the local file to saved to."=\
  选择要保存到的本地文件。
 dlgSgLogCheckoutFileAs.inf"Select whether to save the file state Before or After the selected commit."=\
  选择是在所选提交之前还是之后保存文件状态。
 dlgSgLogCheckoutFileAs.tle=文件另存为
-dlgSgLogComment(|s)DeleteConfirm.btn"Delete Comment"=删除评论
-dlgSgLogComment(|s)DeleteConfirm.fur=评论被删除后无法还原.
-dlgSgLogComment(|s)DeleteConfirm.tle=删除评论
-dlgSgLogCommentDeleteConfirm.hdl%1=你真的想删除评论 '$1'?
+dlgSgLogComment(|s)DeleteConfirm.btn"Delete Comment"=删除注释
+dlgSgLogComment(|s)DeleteConfirm.fur=注释被删除后无法还原.
+dlgSgLogComment(|s)DeleteConfirm.tle=删除注释
+dlgSgLogCommentDeleteConfirm.hdl%1=你真的想删除 “$1” 注释吗？
 dlgSgLogCommentsDeleteConfirm.hdl%1=Do you really want to delete $1 comments?
 dlgSgLogCompareSelectedFilesAgainstEachOther.btn"Compare Separately"=单独比较
 dlgSgLogCompareSelectedFilesAgainstEachOther.btn"Compare With Each Other"=相互比较
@@ -938,29 +938,29 @@ dlgSgMergeHowToMerge.btn"Merge to Working Tree"=Merge to Working Tree
 dlgSgMergeHowToMerge.fur=Fast-forward merge means to just move the current branch \(HEAD\) forward to the selected commit. As an alternative you can create a merge commit or merge to the working tree. In the latter case you can review the changes and later create a merge or normal \(squash\) commit later.
 dlgSgMergeHowToMerge.hdl%1=How to merge from branch '$1'?
 dlgSgMergeHowToMerge.tle=Merge
-dlgSgOpenRepository.edt"Repository"=版本库
-dlgSgOpenRepository.hdl=添加现有或创建新版本库
-dlgSgOpenRepository.inf=指定要打开的本地Git或Mercurial版本库。要创建新版本库，请指定一个空目录。
-dlgSgOpenRepository.tle=添加或创建版本库
+dlgSgOpenRepository.edt"Repository"=仓库
+dlgSgOpenRepository.hdl=添加现有或创建新仓库
+dlgSgOpenRepository.inf=指定要打开的本地 Git 或 Mercurial 仓库。要创建新仓库，请指定一个空目录。
+dlgSgOpenRepository.tle=添加或创建仓库
 dlgSgOpenRepositoryInitializeChooseVcs.btn"Git"=Git
 dlgSgOpenRepositoryInitializeChooseVcs.btn"Mercurial"=Mercurial
 dlgSgOpenRepositoryInitializeChooseVcs.fur=The specified directory does not appear to be a valid Git or Mercurial repository.
 dlgSgOpenRepositoryInitializeChooseVcs.hdl=What VCS should be used to initialize 'swt'?
-dlgSgOpenRepositoryInitializeChooseVcs.tle=添加或创建版本库
+dlgSgOpenRepositoryInitializeChooseVcs.tle=添加或创建仓库
 dlgSgOutput.chk"Don't show again for these $1 warnings"=\
  不要再显示这些 $1 警告
 dlgSgOutput.chk"Don't show again for this warning"=\
  不要再显示此警告
 dlgSgOutput.lbl"Branches need merging first."=需要先合并分支.
 dlgSgOutput.lbl"If in question, please ask your repository administrator."=\
- 如果有问题，请咨询您的版本库管理员。
+ 如果有问题，请咨询您的仓库管理员。
 dlgSgOutput.tle"Command Failed"=命令失败
 dlgSgOutput.tle"Command Output"=命令输出
 dlgSgOutput.tle"Command Succeeded"=命令成功
 dlgSgPingRepositoryFailed.fur%1=Please check the repository URL.\n\n$1
 dlgSgPingRepositoryFailed.hdl%1=Could not connect to the repository '$1'.
 dlgSgPingRepositoryFailed.tle=Clone
-dlgSgPreferences.btn"Add"=添加
+dlgSgPreferences.btn"Add"=创建
 dlgSgPreferences.btn"Change Master Password"=更改主密码
 dlgSgPreferences.btn"Copy"=复制
 dlgSgPreferences.btn"Edit"=编辑
@@ -980,7 +980,7 @@ dlgSgPreferences.chk"Allow all commands on stash and pull request commits"=\
 dlgSgPreferences.chk"Allow modifying pushed commits \(e.g. forced-push\)"=\
  允许修改推送的提交 \(例如：强制推送\)
 dlgSgPreferences.chk"Allow to open multiple Log windows for the same repository/file"=\
- 允许为同一版本库/文件打开多个日志窗口
+ 允许为同一仓库/文件打开多个日志窗口
 dlgSgPreferences.chk"Also detect renames for untracked and missing files"=\
  检测未跟踪和丢失的文件的重命名
 dlgSgPreferences.chk"Ask for master password on startup"=\
@@ -989,25 +989,25 @@ dlgSgPreferences.chk"Autoindent new lines"=Autoindent new lines
 dlgSgPreferences.chk"Automatically save stash on common commands, if they fail due to local changes"=\
  如果由于本地更改而导致失败，则自动将贮藏保存在常用命令上
 dlgSgPreferences.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
- 发生内部错误后自动发送“崩溃日志”
+ 发生内部错误后自动发送 “崩溃追踪”
 dlgSgPreferences.chk"Automatically set up tracking for new branches"=\
  自动设置新分支的跟踪
 dlgSgPreferences.chk"Begin of line: jump to first non-whitespace character"=\
  行首：跳转到第一个非空白字符
-dlgSgPreferences.chk"Closed 'favorite' repositories"=“我的收藏”已关闭的的版本库
+dlgSgPreferences.chk"Closed 'favorite' repositories"=“我的收藏” 已关闭的的仓库
 dlgSgPreferences.chk"Compare with working tree, even if all changes are staged"=\
  与工作树比较，即使所有更改都已暂存
 dlgSgPreferences.chk"Detect local changes in closed 'favorite' repositories"=\
- 检测“我的收藏”中已关闭的版本库中的本地更改
+ 检测 “我的收藏” 中已关闭的仓库中的本地更改
 dlgSgPreferences.chk"Detect remote changes"=检测远程更改
 dlgSgPreferences.chk"Detect renames \(for added and removed files, as command line Git does\)"=\
- 检测重命名 \(添加和删​​除文件，如命Git令行所做的那样\)
+ 检测重命名 \(创建和删​​除文件，如命 Git 令行所做的那样\)
 dlgSgPreferences.chk"Distinguish between content and EOL-only changes \(slightly more expensive\)"=\
  区分内容和 EOL-only 的更改 \(稍微昂贵的代价\)
 dlgSgPreferences.chk"Enable integration for configured hosting providers \(pull requests, comments\)"=\
- 为已配置的主机提供商启用集成 \(拉取请求，评论\)
+ 为已配置的主机提供商启用集成 \(拉取请求，注释\)
 dlgSgPreferences.chk"Focus next change after accepting change \(Take Left/Take Right\)"=\
- 接受变更后，关注下一个变化 \(Take Left/Take Right\)
+ 接受变更后，关注下一个变化 \(向左/向右\)
 dlgSgPreferences.chk"For Preview versions, always check for the latest build"=\
  对于预览版本，始终检查最新编译版本
 dlgSgPreferences.chk"Highlight current line in text content"=\
@@ -1017,8 +1017,8 @@ dlgSgPreferences.chk"Home and end: operate on line, not the document"=\
 dlgSgPreferences.chk"Include untracked files"=包括未跟踪的文件
 dlgSgPreferences.chk"Left and right cursor moves: limit to current line"=\
  左右光标移动：限制为当前行
-dlgSgPreferences.chk"Open repositories when idle"=空闲时打开版本库
-dlgSgPreferences.chk"Open the last used repositories"=打开最后使用的版本库
+dlgSgPreferences.chk"Open repositories when idle"=空闲时打开仓库
+dlgSgPreferences.chk"Open the last used repositories"=打开最后使用的仓库
 dlgSgPreferences.chk"Periodically invoke Git's garbage collection when idle"=\
  空闲时定期调用 Git 的垃圾回收
 dlgSgPreferences.chk"Preselect 'Staged' if files are staged, even if a file without staged changes is selected"=\
@@ -1039,7 +1039,7 @@ dlgSgPreferences.chk"Show line length guides \(only useful for monospaced-font\)
 dlgSgPreferences.chk"Show verbose date for last days, e.g. Yesterday"=\
  显示最后几天的详细日期，例如：昨天
 dlgSgPreferences.chk"Show welcome dialog if no repository has been reopened"=\
- 如果没有重新打开版本库，则显示欢迎对话框
+ 如果没有重新打开仓库，则显示欢迎对话框
 dlgSgPreferences.chk"Swap 'ours' and 'theirs' on Rebase conflicts for easier understanding"=\
  在变基冲突上使用 “我们的” 和 “他们的” 显示以便于理解
 dlgSgPreferences.chk"Trim whitespace"=Trim whitespace
@@ -1051,7 +1051,7 @@ dlgSgPreferences.chk"Use gravatar.com to show images for the users"=\
  使用 gravatar.com 为用户显示图像
 dlgSgPreferences.chk"Use indentation from previous non-empty line"=\
  使用前一个非空行的缩进
-dlgSgPreferences.chk"Use pre-installed \(\"system\"\) Git-Flow\*"=使用预装\(\"系统\"\)Git工作流\*
+dlgSgPreferences.chk"Use pre-installed \(\"system\"\) Git-Flow\*"=使用预装 \(系统\) Git 工作流\*
 dlgSgPreferences.chk"Warn for slow rename detection"=Warn for slow rename detection
 dlgSgPreferences.col"Accelerator"=加速器
 dlgSgPreferences.col"Account"=账号
@@ -1066,7 +1066,7 @@ dlgSgPreferences.col"Key"=键
 dlgSgPreferences.col"Language"=语言
 dlgSgPreferences.col"Name"=名称
 dlgSgPreferences.col"Patterns"=模式
-dlgSgPreferences.col"Repository"=版本库
+dlgSgPreferences.col"Repository"=仓库
 dlgSgPreferences.col"Value"=值
 dlgSgPreferences.edt"Date Format\*"=日期格式\*
 dlgSgPreferences.edt"Example"=例如
@@ -1091,9 +1091,9 @@ dlgSgPreferences.edt"Username"=用户名
 dlgSgPreferences.lbl"Changing these low-level properties can be harmful to the stability or performance of SmartGit. You should only continue if you are sure of what you are doing. Changed properties with a trailing \* need a restart to be applied."=\
  更改这些低级别属性可能会损害 SmartGit 的稳定性或性能。只有在确定自己在做什么的情况下才能继续。结尾含 \* 的属性更改之后需要重新启动才能生效。
 dlgSgPreferences.lbl"Define external tools which will show up in the Tools menu. Those marked with a leading \* in front of the name can be used by the Open command."=\
- 定义将显示在“工具”菜单中的外部工具。 Open命令可以使用在名称前面标有前导\*的那些。
+ 定义将显示在 “工具” 菜单中的外部工具。“打开” 命令可以使用在名称前面标有前导 \* 的那些。
 dlgSgPreferences.lbl"If you are using SSH to connect to other Git repositories, select what SSH client to use."=\
- 如果您使用SSH连接到其他Git版本库，请选择要使用的SSH客户端。
+ 如果您使用SSH连接到其他 Git 仓库，请选择要使用的 SSH 客户端。
 dlgSgPreferences.lbl"In order to use all SmartGit functionality, you need to have command line Git or Mercurial installed on your system. Provide here the full path to the installed 'git' or 'hg' executable."=\
  要使用所有 SmartGit 功能，您需要在系统上安装 Git 命令行或 Mercurial。在这里提供已安装的 “git” 或 “hg” 可执行文件的完整路径。
 dlgSgPreferences.lbl"Note: The password will be stored in plain text in SmartGit's configuration area!"=\
@@ -1123,9 +1123,9 @@ dlgSgPreferences.rbt"Do not check for new updates"=\
  不检查更新
 dlgSgPreferences.rbt"Don't use a proxy"=不使用代理
 dlgSgPreferences.rbt"Exact case \('Foo' will match 'Foo', but not 'foo'\)"=\
- 精确匹配: \('Foo' 会匹配 'Foo', 但不会匹配 'foo'\)
+ 精确匹配 \(“Foo” 会匹配 “Foo”, 但不会匹配 “foo”\)
 dlgSgPreferences.rbt"Ignore case \('Foo' will match 'Foo' and 'foo'\)"=\
- 忽略大小写: \('Foo' 会匹配 'Foo' 和 'foo'\)
+ 忽略大小写 \(“Foo” 会匹配 “Foo” 和 “foo”\)
 dlgSgPreferences.rbt"Light"=浅色
 dlgSgPreferences.rbt"Log Graph"=日志图
 dlgSgPreferences.rbt"Prefer light-weight updates stored in home directory"=\
@@ -1137,7 +1137,7 @@ dlgSgPreferences.rbt"Update SmartGit application in-place \(may require administ
 dlgSgPreferences.rbt"Use SmartGit as SSH client"=使用 Smart Git 作为 SSH 客户端
 dlgSgPreferences.rbt"Use following proxy"=使用以下代理
 dlgSgPreferences.rbt"Use system SSH client"=使用系统 SSH 客户端
-dlgSgPreferences.rbt"Working Tree"=工作副本
+dlgSgPreferences.rbt"Working Tree"=工作树
 dlgSgPreferences.tab"Behavior"=行为
 dlgSgPreferences.tab"Colors"=颜色
 dlgSgPreferences.tab"Font"=字体
@@ -1178,11 +1178,11 @@ dlgSgPull.rbt"Rebase local branch onto fetched changes"=\
 dlgSgPull.tle=拉取
 dlgSgPullConfiguration.btn"Configure"=配置
 dlgSgPullConfiguration.chk"Remember as default for other repositories"=\
- 记住作为其他版本库的默认选项
+ 记住作为其他仓库的默认选项
 dlgSgPullConfiguration.hdl=配置如何拉取
-dlgSgPullConfiguration.inf=指定是否在当前版本库的拉取上进行合并或变基。
+dlgSgPullConfiguration.inf=指定是否在当前仓库的拉取上进行合并或变基。
 dlgSgPullConfiguration.lbl"Merging produces additional 'merge'-commits and is not recommended. It might however be a convention of your repository \(ask the maintainer to find out\)."=\
- 合并会产生额外的“合并”提交，一般不建议使用. 然而，它可能是您的版本库的惯例\(要求维护者找出\)。
+ 合并会产生额外的 “合并” 提交，一般不建议使用. 然而，它可能是您的仓库的惯例 \(要求维护者找出\)。
 dlgSgPullConfiguration.lbl"Rebasing gives a clean linear history and is recommended in general."=\
  变基提供了清晰的线性历史记录，一般建议使用。
 dlgSgPullConfiguration.rbt"Merge"=合并
@@ -1217,7 +1217,7 @@ dlgSgPushToRef.btn"Push"=推送
 dlgSgPushToRef.chk"Force pushing \(even if it's not fast-forward\)"=\
  Force pushing \(even if it's not fast-forward\)
 dlgSgPushToRef.edt"Push To"=推送到
-dlgSgPushToRef.edt"Target Repository"=目标版本库
+dlgSgPushToRef.edt"Target Repository"=目标仓库
 dlgSgPushToRef.hdl"Push '$1' to a remote repository"=\
  Push '$1' to a remote repository
 dlgSgPushToRef.hdl"Push '$1' to remote '$2'"=Push '$1' to remote '$2'
@@ -1306,11 +1306,11 @@ dlgSgRecursiveUnstage.btn"Unstage"=取消暂存
 dlgSgRecursiveUnstage.hdl=Revert staged changes from the Index to the working tree
 dlgSgRecursiveUnstage.inf=Select the files to unstage from the Index.
 dlgSgRecursiveUnstage.tle=Unstage
-dlgSgRemoteFetchMoreNoMoreBranches.fur=远程版本库中存在的所有分支也都已在本地存在。
+dlgSgRemoteFetchMoreNoMoreBranches.fur=远程仓库中存在的所有分支也都已在本地存在。
 dlgSgRemoteFetchMoreNoMoreBranches.hdl=没有更多的远程分支来获取。
 dlgSgRemoteFetchMoreNoMoreBranches.tle=获取更多
 dlgSgRemoteProperties.chk"Perform background Poll or Fetch"=Perform background Poll or Fetch
-dlgSgRemoteProperties.edt"URL or Path"=网址或路径
+dlgSgRemoteProperties.edt"URL or Path"=URL 或路径
 dlgSgRemoteProperties.hdl=配置远程属性
 dlgSgRemoteProperties.inf=Change the URL and other properties for the remote.
 dlgSgRemoteProperties.tle=远程属性
@@ -1327,7 +1327,7 @@ dlgSgRemove.btn"Remove"=移除
 dlgSgRemove.chk"Delete local files"=删除本地文件
 dlgSgRemove.col"Directory"=目录
 dlgSgRemove.col"Name"=Name
-dlgSgRemove.hdl=从版本库中删除文件
+dlgSgRemove.hdl=从仓库中删除文件
 dlgSgRemove.inf=Select the files you want to remove from the repository or working tree \(stopped from tracking\).
 dlgSgRemove.tle=移除
 dlgSgRenameBranch.btn"Rename"=重命名
@@ -1342,13 +1342,13 @@ dlgSgRenameFile.inf=输入文件的新路径和名称。
 dlgSgRenameFile.tle=重命名
 dlgSgRenameRemote.btn"Rename"=重命名
 dlgSgRenameRemote.edt"Name"=名称
-dlgSgRenameRemote.hdl=远程版本库重命名
+dlgSgRenameRemote.hdl=远程仓库重命名
 dlgSgRenameRemote.inf=为选择的远程提供新的名称
-dlgSgRenameRemote.tle=远程版本库重命名
+dlgSgRenameRemote.tle=远程仓库重命名
 dlgSgRenameRepository.btn"Rename"=重命名
 dlgSgRenameRepository.edt"Name"=名称
-dlgSgRenameRepository.hdl=重命名版本库
-dlgSgRenameRepository.inf=为版本库提供新的名称。版本库的目录不会被重命名。
+dlgSgRenameRepository.hdl=重命名仓库
+dlgSgRenameRepository.inf=为仓库提供新的名称。仓库的目录不会被重命名。
 dlgSgRenameRepository.tle=重命名
 dlgSgRepositoriesSearch.btn"Start Search"=开始搜索
 dlgSgRepositoriesSearch.col"Path"=路径
@@ -1357,7 +1357,7 @@ dlgSgRepositoriesSearch.edt"Found repository \(selected ones will be remembered\
 dlgSgRepositoriesSearch.edt"Search In"=Search In
 dlgSgRepositoriesSearch.hdl=Search existing local repositories
 dlgSgRepositoriesSearch.inf=Select a root directory where the search should start and click 'Start Search''.
-dlgSgRepositoriesSearch.tle=搜索版本库
+dlgSgRepositoriesSearch.tle=搜索仓库
 dlgSgRepositoryFrameCloseWithoutPush.btn"Close Now"=Close Now
 dlgSgRepositoryFrameCloseWithoutPush.chk=Don't show again
 dlgSgRepositoryFrameCloseWithoutPush.fur=You have pushable commits. Maybe you want to push them before closing this window.
@@ -1381,9 +1381,9 @@ dlgSgRepositorySettings.edt"Name"=用户名
 dlgSgRepositorySettings.edt"Signing Key"=Signing Key
 dlgSgRepositorySettings.edt"Submodule handling\*"=Submodule handling\*
 dlgSgRepositorySettings.edt"Text File Encoding"=文本编码
-dlgSgRepositorySettings.hdl=编辑有效的版本库设置
-dlgSgRepositorySettings.inf=在这里，您可以查看和编辑用户配置文件和版本库的有效Git设置。要将选项保存为用户设置，请选择“记住默认”。
-dlgSgRepositorySettings.tle=版本库设置
+dlgSgRepositorySettings.hdl=编辑有效的仓库设置
+dlgSgRepositorySettings.inf=在这里，您可以查看和编辑用户配置文件和仓库的有效 Git 设置。要将选项保存为用户设置，请选择 “记住默认” 。
+dlgSgRepositorySettings.tle=仓库设置
 dlgSgResetAdv.btn"Reset"=重置
 dlgSgResetAdv.chk"Thoroughly fix line endings according to .gitattributes"=\
  Thoroughly fix line endings according to .gitattributes
@@ -1448,8 +1448,8 @@ dlgSgReviewConfigureDisposeDatabase.hdl=Do you really want to dispose all local 
 dlgSgReviewConfigureDisposeDatabase.tle=Dispose Database
 dlgSgReviewConfigureIntializeNew.btn"Initialize"=初始化
 dlgSgReviewConfigureIntializeNew.fur=This will create a new Review database in the current repository which may be pushed to other remotes later.
-dlgSgReviewConfigureIntializeNew.hdl=是否要初始化新的评审数据库？
-dlgSgReviewConfigureIntializeNew.tle=配置评审系统
+dlgSgReviewConfigureIntializeNew.hdl=是否要初始化新的审阅数据库？
+dlgSgReviewConfigureIntializeNew.tle=配置审阅系统
 dlgSgReviewConfigureWhat.btn"Dispose Database"=Dispose Database
 dlgSgReviewConfigureWhat.btn"Edit Users"=Edit Users
 dlgSgReviewConfigureWhat.btn"Initialize a Remote"=Initialize a Remote
@@ -1478,13 +1478,13 @@ dlgSgReviewUsersEdit.col"Name"=Name
 dlgSgReviewUsersEdit.hdl=Configure review database users
 dlgSgReviewUsersEdit.inf=Users can have aliases which are used in comment texts and they have optional contact details.
 dlgSgReviewUsersEdit.tle=Configure Users
-dlgSgSetup.btn"< Back"=上一步
+dlgSgSetup.btn"< Back"=< 上一步
 dlgSgSetup.btn"Configure Proxy"=设置代理
 dlgSgSetup.btn"Exit"=退出
 dlgSgSetup.btn"Finish"=完成
-dlgSgSetup.btn"Next >"=下一步
+dlgSgSetup.btn"Next >"=下一步 >
 dlgSgSetup.chk"Automatically send 'crash footprints' after an internal error has occurred"=\
- 发生内部错误后自动发送“崩溃日志”
+ 发生内部错误后自动发送 “崩溃追踪”
 dlgSgSetup.chk"I understand and agree to all terms and conditions of the"=\
  我理解并同意所有条款和条件
 dlgSgSetup.chk"Use gravatar.com to show images for the users"=\
@@ -1493,7 +1493,7 @@ dlgSgSetup.edt"Email"=电子邮箱
 dlgSgSetup.edt"Git Executable"=Git 可执行文件
 dlgSgSetup.edt"Hg Executable"=Hg 可执行文件
 dlgSgSetup.edt"License File"=许可证文件
-dlgSgSetup.edt"Repository search"=版本库搜索
+dlgSgSetup.edt"Repository search"=仓库搜索
 dlgSgSetup.edt"User Name"=用户名
 dlgSgSetup.inf"Decide whether you prefer a File Manager or Log History like style of the SmartGit main window. You can change this option later in the preferences."=\
  Decide whether you prefer a File Manager or Log History like style of the SmartGit main window. You can change this option later in the preferences.
@@ -1508,7 +1508,7 @@ dlgSgSetup.inf"User name and email will be stored as part of your commits. Here 
 dlgSgSetup.inf"Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not."=\
  Welcome to SmartGit! Confirm that you are accepting the license agreement and whether your usage will be commercial or not.
 dlgSgSetup.lbl"Please help to improve SmartGit's quality by automatically sending 'crash footprints' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names."=\
- Please help to improve SmartGit's quality by automatically sending '崩溃日志' which do not contain any sensitive information. You can change this option later in the preferences.\n\nA 'crash footprint' contains details about your machine \(e.g. version of operating system\), SmartGit's version/build number, the JVM state and where the internal error occurred.\n\nIt contains NO POTENTIALLY SENSITIVE INFORMATION like user names, email addresses, file contents, file paths or server names.
+ 请通过自动发送不包含任何敏感信息的 “崩溃追踪” 来帮助提高 SmartGit 的质量。 您可以稍后在首选项中更改此选项。\n\n崩溃追踪包含有关您的计算机的详细信息 \(例如，操作系统的版本\)，SmartGit 的版本/内部版本号，JVM 状态以及发生内部错误的位置。 \n\n它不包含任何潜在的敏感信息，如用户名，电子邮件地址，文件内容，文件路径或服务器名称。
 dlgSgSetup.lbl"You confirm that you will use SmartGit solely for non-commercial purposes."=\
  您确认将 SmartGit 仅用于非商业目的。
 dlgSgSetup.lbl"You have purchased a SmartGit license and are eligible to use SmartGit for both commercial and non-commercial purposes."=\
@@ -1587,10 +1587,10 @@ dlgSgSvnClientCertificate.chk"Store passphrase"=存储密码
 dlgSgSvnClientCertificate.edt"Certificate"=证书
 dlgSgSvnClientCertificate.edt"Passphrase"=密码
 dlgSgSvnClientCertificate.hdl=客户端证书
-dlgSgSvnClientCertificate.inf%1=为SVN版本库'$1'提供身份验证的客户端证书。
+dlgSgSvnClientCertificate.inf%1=为 SVN 仓库 “$1” 提供身份验证的客户端证书。
 dlgSgSvnClientCertificate.tle=SVN 认证
 dlgSgSvnClientCertificate.wrn"Authentication to the SVN repository '$1' failed with error: $2"=\
- 对SVN版本库'$1'的身份验证失败，错误：$2'
+ 对 SVN 仓库 ”$1“ 的身份验证失败，错误：$2
 dlgSgSvnSslFingerprintChanged.btn"Accept"=Accept
 dlgSgSvnSslFingerprintChanged.btn"Reject"=Reject
 dlgSgSvnSslFingerprintChanged.edt"MD5 fingerprint"=MD5 fingerprint
@@ -1606,11 +1606,11 @@ dlgSgSyncConfirm.chk=不再显示
 dlgSgSyncConfirm.fur=首先，将推送本地更改，然后可能会拉取远程更改。比普通推送的优势在于，如果由于远程更改而推送失败，它们将被自动拉取。
 dlgSgSyncConfirm.hdl=你确定要继续同步吗？
 dlgSgSyncConfirm.tle=同步
-dlgSgTagAdd.btn"Add Tag && Push"=添加标签并推送
+dlgSgTagAdd.btn"Add Tag && Push"=创建标签并推送
 dlgSgTagAdd.btn"Add Tag"=创建标签
 dlgSgTagAdd.edt"Annotated Tag Message"=带注释的标签消息
 dlgSgTagAdd.edt"Tag"=标签
-dlgSgTagAdd.hdl=在当前HEAD提交添加标签
+dlgSgTagAdd.hdl=在当前 HEAD 提交创建标签
 dlgSgTagAdd.inf=输入要创建的标签名称。如果输入消息，则会创建带注释的标签。
 dlgSgTagAdd.tle=创建标签
 dlgSgTool(Add|Edit).btn"Clear"=清除
@@ -1638,9 +1638,9 @@ dlgSgTool(Add|Edit).mni"File or Directory URI"=文件或目录地址
 dlgSgTool(Add|Edit).mni"Git Executable"=Git 可执行文件
 dlgSgTool(Add|Edit).mni"Git Installation"=Git 安装程序
 dlgSgTool(Add|Edit).mni"Hg Executable"=Hg 可执行文件
-dlgSgTool(Add|Edit).mni"Hg Installation"=Ha安装程序
+dlgSgTool(Add|Edit).mni"Hg Installation"=Hg 安装程序
 dlgSgTool(Add|Edit).mni"Remote \(Push\) URL"=远程 \(推送\) 网址
-dlgSgTool(Add|Edit).mni"Repository Root Path"=版本库根路径
+dlgSgTool(Add|Edit).mni"Repository Root Path"=仓库根路径
 dlgSgTool(Add|Edit).mni"Selection File"=选择文件
 dlgSgTool(Add|Edit).mni"Show Directory Selection Dialog"=显示目录选择对话框
 dlgSgTool(Add|Edit).mni"Show Open File Dialog"=显示打开文件对话框
@@ -1663,14 +1663,14 @@ dlgSgUnstageNoFilesFound.fur=Could not find files with staged changes.
 dlgSgUnstageNoFilesFound.hdl=No files found that could be unstaged.
 dlgSgUnstageNoFilesFound.tle=Unstage
 dlgSgWelcome.chk"Show this dialog if no repository was opened"=\
- 如果没有打开版本库，则显示此对话框
+ 如果没有打开仓库，则显示此对话框
 dlgSgWelcome.hdl=你想做什么?
 dlgSgWelcome.inf=Select whether to open a new, local repository, clone a \(remote\) repository or open an existing repository.
 dlgSgWelcome.rbt"Add an existing local or create a new repository"=\
- 添加现有本地或创建新版本库
-dlgSgWelcome.rbt"Clone existing repository"=克隆现有的版本库
+ 创建现有本地或创建新仓库
+dlgSgWelcome.rbt"Clone existing repository"=克隆现有的仓库
 dlgSgWelcome.rbt"Reopen previously used repository:"=Reopen previously used repository:
-dlgSgWelcome.tle=欢饮使用SmartGit
+dlgSgWelcome.tle=欢迎使用 SmartGit
 dlgSgWorktreeAdd.edt"Branch"=分支
 dlgSgWorktreeAdd.edt"Directory"=Directory
 dlgSgWorktreeAdd.hdl=Create another worktree from this repository
@@ -1760,7 +1760,7 @@ wnd(Log|Project).mni"New Group"=创建分组
 wnd(Log|Project).mni"No Group"=没有分组
 wnd(Log|Project).mniAbout=关于 SmartGit
 wnd(Log|Project).mniAnnotate=追溯
-wnd(Log|Project).mniAssume-unchanged-toggle=切换'假设不变'
+wnd(Log|Project).mniAssume-unchanged-toggle=切换 “忽略跟踪”
 wnd(Log|Project).mniBisectBad=将 HEAD 标记为坏的
 wnd(Log|Project).mniBisectExit=重置
 wnd(Log|Project).mniBisectGood=将 HEAD 标记为好的
@@ -1773,11 +1773,11 @@ wnd(Log|Project).mniBranchRename=重命名
 wnd(Log|Project).mniBranchResetTracking=停止跟踪
 wnd(Log|Project).mniBranchSetTracking=设置跟踪分支
 wnd(Log|Project).mniBranchSplit=修改或拆分提交
-wnd(Log|Project).mniCheckForLatestBuild=检查更新(编译版本)
+wnd(Log|Project).mniCheckForLatestBuild=检查更新 \(编译版本\)
 wnd(Log|Project).mniCheckForNewVersion=检查更新
 wnd(Log|Project).mniCheckout=检出
 wnd(Log|Project).mniCherryPick=摘取
-wnd(Log|Project).mniClean=清理工作副本
+wnd(Log|Project).mniClean=清理工作树
 wnd(Log|Project).mniClearOutput=清理输出
 wnd(Log|Project).mniCommit=提交
 wnd(Log|Project).mniCompareWithWorkingTree=与工作树比较
@@ -1794,8 +1794,8 @@ wnd(Log|Project).mniDebugCreateThreadDumps=Create Periodical Thread Dumps
 wnd(Log|Project).mniDebugEnableRefreshTraceLogging=开始跟踪刷新
 wnd(Log|Project).mniDebugLogFileMonitorEvents=记录文件监控事件
 wnd(Log|Project).mniDebugLogFileMonitorState=记录文件监控状态
-wnd(Log|Project).mniDebugLogOpenRepositories=记录打开版本库
-wnd(Log|Project).mniDebugRunGc=运行垃圾回收(GC)
+wnd(Log|Project).mniDebugLogOpenRepositories=记录打开仓库
+wnd(Log|Project).mniDebugRunGc=运行垃圾回收 \(GC\)
 wnd(Log|Project).mniDelete=删除
 wnd(Log|Project).mniDiscard=丢弃
 wnd(Log|Project).mniEditCommitAuthor=编辑作者
@@ -1861,7 +1861,7 @@ wnd(Log|Project).mniRebaseSkip=跳过
 wnd(Log|Project).mniRebaseToHead=Rebase to HEAD
 wnd(Log|Project).mniRefresh=刷新
 wnd(Log|Project).mniRegister=注册产品
-wnd(Log|Project).mniRemoteAdd=添加
+wnd(Log|Project).mniRemoteAdd=创建
 wnd(Log|Project).mniRemoteDelete=删除
 wnd(Log|Project).mniRemoteFetch=获取
 wnd(Log|Project).mniRemoteFetchMore=获取更多
@@ -1869,27 +1869,27 @@ wnd(Log|Project).mniRemoteProperties=属性
 wnd(Log|Project).mniRemoteRename=重命名
 wnd(Log|Project).mniRemove=删除
 wnd(Log|Project).mniRename=重命名
-wnd(Log|Project).mniRepositoryAdd=添加或创建版本库
+wnd(Log|Project).mniRepositoryAdd=创建或创建仓库
 wnd(Log|Project).mniRepositoryAddGroup=创建分组
 wnd(Log|Project).mniRepositoryClone=克隆
 wnd(Log|Project).mniRepositoryClose=关闭
-wnd(Log|Project).mniRepositoryEditConfig=版本库
+wnd(Log|Project).mniRepositoryEditConfig=仓库
 wnd(Log|Project).mniRepositoryEditConfigUser=用户
 wnd(Log|Project).mniRepositoryFavorite=标记为收藏
-wnd(Log|Project).mniRepositoryOpen=打开版本库
-wnd(Log|Project).mniRepositoryOpenInNewWindow=在新窗口中打开版本库
+wnd(Log|Project).mniRepositoryOpen=打开仓库
+wnd(Log|Project).mniRepositoryOpenInNewWindow=在新窗口中打开仓库
 wnd(Log|Project).mniRepositoryRemove=删除
 wnd(Log|Project).mniRepositoryRename=重命名
-wnd(Log|Project).mniRepositorySearch=搜索版本库
+wnd(Log|Project).mniRepositorySearch=搜索仓库
 wnd(Log|Project).mniRepositorySettings=设置
 wnd(Log|Project).mniReset=重置提交
-wnd(Log|Project).mniResetAdvanced=重置提交(高级)
+wnd(Log|Project).mniResetAdvanced=重置提交 \(高级\)
 wnd(Log|Project).mniResolve=解决
 wnd(Log|Project).mniRevealCommit=显示提交
 wnd(Log|Project).mniRevealCommitExtend=与选中提交比较
 wnd(Log|Project).mniRevealCommitWithHead=与 HEAD 比较
 wnd(Log|Project).mniRevert=还原
-wnd(Log|Project).mniReviewCommentCreate=添加评论
+wnd(Log|Project).mniReviewCommentCreate=添加注释
 wnd(Log|Project).mniReviewConfigure=配置
 wnd(Log|Project).mniReviewDumpDatabase=转储数据库
 wnd(Log|Project).mniReviewPullRequestCreate=创建拉取请求
@@ -1939,16 +1939,16 @@ wnd(Log|Project).mniWindowClose=关闭
 wnd(Log|Project).mniWindowComments=评论视图
 wnd(Log|Project).mniWindowCommit=提交视图
 wnd(Log|Project).mniWindowDebugLog=调试日志
-wnd(Log|Project).mniWindowDirectories=版本库视图
+wnd(Log|Project).mniWindowDirectories=仓库视图
 wnd(Log|Project).mniWindowFiles=文件视图
 wnd(Log|Project).mniWindowGraph=图形视图
 wnd(Log|Project).mniWindowHideView=隐藏选中视图
-wnd(Log|Project).mniWindowLayoutSetMain=主要观点
+wnd(Log|Project).mniWindowLayoutSetMain=主要评审
 wnd(Log|Project).mniWindowLayoutSetReview=Review Perspective
 wnd(Log|Project).mniWindowMaximizeRestore"Maximize View"=最大化视图
 wnd(Log|Project).mniWindowOutput=输出视图
 wnd(Log|Project).mniWindowWorkingTree=工作树窗口
-wnd(Log|Project).mniWorktreeAdd=添加工作树
+wnd(Log|Project).mniWorktreeAdd=创建工作树
 wnd(Log|Project).mniWorktreeRemove=修剪过时的工作树
 wnd(Log|Project).mnu"< No Windows >"=<无窗口>
 wnd(Log|Project).mnu"Bisect"=Bisect
@@ -1963,7 +1963,7 @@ wnd(Log|Project).mnu"Local"=本地
 wnd(Log|Project).mnu"Query"=查询
 wnd(Log|Project).mnu"Rebase"=变基
 wnd(Log|Project).mnu"Remote"=远程
-wnd(Log|Project).mnu"Repository"=版本库
+wnd(Log|Project).mnu"Repository"=仓库
 wnd(Log|Project).mnu"Review"=评审
 wnd(Log|Project).mnu"Submodule"=子模块
 wnd(Log|Project).mnu"Tools"=工具
@@ -1976,7 +1976,7 @@ wnd(Log|Project).tab"Changes of $1 \($2\) - $3"=\
  $1 的变化\($2\) - $3
 wnd(Log|Project).tab"Changes of $1 \($2\)"=$1 的变化\($2\)
 wnd(Log|Project).tab"Changes"=的变化
-wnd(Log|Project).tab"Comments"=评论
+wnd(Log|Project).tab"Comments"=注释
 wnd(Log|Project).tab"Commit Message"=提交信息
 wnd(Log|Project).tab"Commit"=提交
 wnd(Log|Project).tab"Debug Log"=调试日志
@@ -1989,7 +1989,7 @@ wnd(Log|Project).tab"Graph \(Scanning WT...\)"=Graph \(Scanning WT...\)
 wnd(Log|Project).tab"Graph"=图形
 wnd(Log|Project).tab"Journal"=日志
 wnd(Log|Project).tab"Output"=输出
-wnd(Log|Project).tab"Repositories"=版本库
+wnd(Log|Project).tab"Repositories"=仓库
 wnd(Log|Project).tbr"Add Tag"=创建标签
 wnd(Log|Project).tbr"Apply Stash"=应用贮藏
 wnd(Log|Project).tbr"Blame"=追溯
@@ -2088,7 +2088,7 @@ wndDeepgit.mniIgnoreWhitespaceOnlyChanges=忽略空白更改
 wndDeepgit.mniLicenseAgreement=许可协议
 wndDeepgit.mniNextChange=下一处更改
 wndDeepgit.mniOpenFileLog=打开文件日志
-wndDeepgit.mniOpenRepositoryLog=打开版本库日志
+wndDeepgit.mniOpenRepositoryLog=打开仓库日志
 wndDeepgit.mniOptimizeCreationOrigins=Optimize 'Appeared Here' Origins
 wndDeepgit.mniPerspectiveBlameOrigin=Blame+Origins Perspective
 wndDeepgit.mniPerspectiveBlameSimple=Blame Perspective
@@ -2140,8 +2140,8 @@ wndLog.col"Renamed Path"=重命名路径
 wndLog.col"Text"=文本
 wndLog.mni"<no entry>"=<no entry>
 wndLog.mni"Abbreviated"=简短的
-wndLog.mni"Add GitHub Comment"=添加GitHub评论
-wndLog.mni"Add Review Comment"=添加评审评论
+wndLog.mni"Add GitHub Comment"=创建 GitHub 注释
+wndLog.mni"Add Review Comment"=创建评审注释
 wndLog.mni"All"=所有
 wndLog.mni"Author Abbreviated"=作者缩写
 wndLog.mni"Author with Full Name and Email"=\
@@ -2157,7 +2157,7 @@ wndLog.mni"Clear History"=清除历史记录
 wndLog.mni"Coloring:"=着色：
 wndLog.mni"Columns"=列
 wndLog.mni"Columns:"=列：
-wndLog.mni"Comment $1"=评论$1
+wndLog.mni"Comment $1"=注释 $1
 wndLog.mni"Committer"=修订者
 wndLog.mni"Compact Author"=Compact Author
 wndLog.mni"Copy ID"=Copy ID
@@ -2168,11 +2168,11 @@ wndLog.mni"Create Merge Request"=创建合并请求
 wndLog.mni"Create Pull Request"=创建拉取请求
 wndLog.mni"Date"=日期
 wndLog.mni"Default Coloring"=默认着色
-wndLog.mni"Delete 'Comment $1'"=删除'评论$1'
+wndLog.mni"Delete 'Comment $1'"=删除 “注释 $1”
 wndLog.mni"Delete"=删除
 wndLog.mni"Diff Tool"=差异工具
 wndLog.mni"Drop Local Data"=删除本地数据
-wndLog.mni"Edit 'Comment $1'"=修改'评论$1'
+wndLog.mni"Edit 'Comment $1'"=修改 “注释 $1”
 wndLog.mni"Edit in Index Editor"=Edit in Index Editor
 wndLog.mni"Edit"=编辑
 wndLog.mni"Fast-Forward Merge"=快进合并
@@ -2257,23 +2257,23 @@ wndLog.mniView-remember-as-default=记住默认
 wndLog.mniView-settings=设置
 wndLog.mniWindowMaximizeRestore"Maximize View"=最大化视图
 wndLog.mniWindowMaximizeRestore"Restore Maximized View"=还原视图
-wndLog.tab"Comments \($1\)"=评论\($1\)
+wndLog.tab"Comments \($1\)"=注释 \($1\)
 wndLog.tbt"Clear logging."=Clear logging.
 wndLog.tbt"Hosting provider is not configured for the current repository. Go to the Preferences to add a configuration."=\
- 当前版本库未配置主机提供商. 前往"编辑|首选项|添加配置.
+ 当前仓库未配置主机提供商。前往 “首选项创建配置”。
 wndLog.tbt"Show directories tree"=Show directories tree
 wndLog.tbtAnnotate=显示所选文件的追溯 \(注释\) 视图。
 wndLog.tbtClearOutput=Clear output pane.
 wndLog.tbtCommit=提交本地更改。
 wndLog.tbtDiscard=丢弃本地更改。
-wndLog.tbtFetch=从远程版本库获取提交并\(可选\)将它们与本地提交集成。
+wndLog.tbtFetch=从远程仓库获取提交并 \(可选\) 将它们与本地提交集成。
 wndLog.tbtFlowContext=完成 Git 工作流功能。
 wndLog.tbtGoto-next-diff=Go to next change.
 wndLog.tbtGoto-previous-diff=Go to previous change.
 wndLog.tbtIndexEditor=编辑所选文件的索引状态，例如：决定哪些行应该被暂存.
 wndLog.tbtInvestigate=使用 DeepGit 逐行调查历史记录。
 wndLog.tbtMerge=合并来自其他分支的更改。
-wndLog.tbtPush=将本地提交推送到远程源版本库。
+wndLog.tbtPush=将本地提交推送到远程源仓库。
 wndLog.tbtRebaseHeadTo=将 HEAD 提交应用于所选提交。
 wndLog.tbtStage=将工作树文件暂存在索引中以准备下一次提交。
 wndLog.tbtStashApply=从贮藏中重新应用本地更改。
@@ -2292,7 +2292,7 @@ wndProject.chk"Amend last commit instead of creating new one"=\
  修改最后一次提交而不是创建新提交
 wndProject.col"Copied from"=Copied from
 wndProject.col"Index State"=索引状态
-wndProject.col"Name"=名称
+wndProject.col"Name"=用户名
 wndProject.col"Relative Directory"=相对目录
 wndProject.col"Size"=大小
 wndProject.col"State"=状态
@@ -2306,7 +2306,7 @@ wndProject.mniBranchClose=Close
 wndProject.mniLogRepository=日志窗口
 wndProject.mniSelectCommittableFiles=选择可提交文件
 wndProject.mniSelectDirectory=选择目录
-wndProject.mniSelectRoot=选择版本库根目录
+wndProject.mniSelectRoot=选择仓库根目录
 wndProject.mniWindowCommit=提交
 wndProject.mniWindowJournal=日志视图
 wndProject.tab"Commit"=提交
