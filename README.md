@@ -184,3 +184,4 @@ Since SmartGit dynamically generates texts, the master mapping does not include 
 We need reviews by native speakers of each language.
 Pending pull requests and existing translations in `mapping.dev` may sometimes need refinement.
 We welcome review comments and suggestions for improving existing translations!
+
